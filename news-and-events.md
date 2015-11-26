@@ -1,7 +1,5 @@
 ---
 layout: default
-lead: News &amp; Events
+title: News &amp; Events
 permalink: /news-and-events/
 ---
-
-Welcome to eiwear;

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body id="main">
+
+  <div class="container">
+    <div class="panel panel-default ei-panel">
+
+      <div class="panel-header">
+        {% include header.html %}
+      </div>
+
+      <div class="panel-body">
+
+        <p class="lead">
+          {{ page.lead }}
+        </p>
+
+        <div class="row big-gutter">
+
+          <div class="col-md-5">
+            {{ content }}
+          </div>
+
+          <div class="col-md-7">
+            <img class="img-responsive" src="{{ page.image }}">
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="col-md-12">
+            <p class="text-center">
+              2040 4th Street, Berkeley, CA 94710. Map
+              <br><br>
+              Contact us by phone 510.984.2880 or email
+              <br><br>
+              Store hours are: Sunday 12pm to 6pm, and
+              Monday through Saturday from 11am to 6pm.
+              After-hours appointments are available by phone.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 widgets">
+            <div>
+            <a href="http://www.southfourthdistrict.com" target="_blank">
+            <img src="/images/sofologo.png"></a>
+          </div>
+            <div class="widget">{% include gplus-icon.html %}</div>
+            <div class="widget">{% include winners-list.html %}</div>
+            <div class="widget">{% include instagram.html %}</div>
+            <div class="widget">{% include bbb.html %}</div>
+          </div>
+          <div class="col-md-9">
+
+            <p class="text-center map">
+              {% include 3dtour.html %}
+            </p>
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% include bootstrapjs.html %}
+</body>
+
+</html>

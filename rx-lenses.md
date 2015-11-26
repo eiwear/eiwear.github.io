@@ -2,7 +2,7 @@
 layout: default
 title: Rx Lenses
 permalink: /rx-lenses/
-header: Since we provide our optical laboratory, we're able to provide quality lenses at a fair price. We have access to every lens and lens coating on the market.
+lead: Since we provide our optical laboratory, we're able to provide quality lenses at a fair price. We have access to every lens and lens coating on the market.
 image: /images/rxlenses_photo.png
 ---
 

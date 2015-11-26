@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
   {% include head.html %}
-  <body>
+  <body id="main">
 
     <div class="container">
-      <div class="ei-wrapper">
+      <div class="panel panel-default ei-panel">
+      <div class="panel-header">
         {% include header.html %}
+      </div>
+
+      <div class="panel-body">
         <p class="lead">
-          {{ page.header }}
+          {{ page.lead }}
         </p>
 
-        <div class="page-body">
-          <div class="row">
-            <div class="col-md-5">
-              <div class="page-body-text">
-                {{ content }}
-              </div>
+        <div class="row big-gutter">
+          <div class="col-md-5">
 
-            </div>
-            <div class="col-md-7">
-              <img class="page-body-image" src="{{ page.image }}">
-            </div>
-          </div>
-        </div>
+        {{ content }}
+
+      </div>
+      <div class="col-md-7">
+        <img class="img-responsive" src="{{ page.image }}">
       </div>
     </div>
 
+      </div>
+      </div>
+    </div>
+    {% include bootstrapjs.html %}
   </body>
 
 </html>

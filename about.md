@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: about
 title: About Us
 permalink: /about/
-header: E iWear is owned and operated by Ernst and Michael. We opened our doors in 2002 with a small store front in San Francisco.
+lead: E iWear is owned and operated by Ernst and Michael. We opened our doors in 2002 with a small store front in San Francisco.
 image: /images/aboutus_photo.png
 ---
 
@@ -15,11 +15,3 @@ laboratory we're able to insure the quality of our work, and dispense a finished
 product in a timely manner.
 
 In the summer of 2009 we relocated to 4th Street in Berkeley.
-
-2040 4th Street, Berkeley, CA 94710. Map
-
-Contact us by phone 510.984.2880 or email
-
-Store hours are: Sunday 12pm to 6pm, and
-Monday through Saturday from 11am to 6pm.
-After-hours appointments are available by phone.
